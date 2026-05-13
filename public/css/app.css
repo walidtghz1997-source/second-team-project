@@ -538,7 +538,6 @@
 
 .imageboxdivbig {
     background-color: rgb(250, 250, 251);
-    /* padding-top: 10px; */
     border-radius: 10px 10px 10px 10px;
     position: relative;
 }
@@ -580,7 +579,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: white; */
     width: 100%;
 }
 
@@ -705,8 +703,6 @@
     gap: 15px;
 
 }
-.secondsection-row:hover {
-}
 
 .secondsection-onecard {
     border: 1px solid rgb(231, 232, 235);
@@ -777,7 +773,6 @@
     color: white;
     text-shadow: #59f5e3 0px 0px 6px;
     cursor: pointer;
-    color: ;
     transition: 0.3s;;
 }
 
@@ -838,7 +833,6 @@
 }
 
 .itemratingdiv {
-    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -927,10 +921,8 @@
 }
 
 .theicon:hover {
-    /* font-size: 11px; */
     background-color: rgb(9, 92, 85);
     font-weight: bolder;
-    /* letter-spacing: 1%; */
     text-shadow: 2px 3px 8px rgb(59, 200, 188);
     transition: 0.3s;
 }
@@ -938,7 +930,6 @@
 .fashionfeatureone {
 
     color: rgb(13, 148, 136);
-    /* background-color: aqua; */
     background-color: rgba(13, 148, 137, 0.200);
     font-size: smaller;
     position: absolute;
@@ -952,7 +943,6 @@
 
 .fashionfeaturetwo {
     color: rgb(255, 39, 39);
-    /* background-color: aqua; */
     background-color: rgba(255, 173, 177, 0.318);
     font-size: smaller;
     position: absolute;
@@ -981,7 +971,6 @@
 /* todo/ top bar filter options */
 .sectionfour-topbar {
     width: 100%;
-    /* background-color: aqua; */
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -991,7 +980,6 @@
 }
 
 .topbar-filteroption a {
-    /* background-color: red; */
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -1022,7 +1010,6 @@
 }
 
 .topbar-filteroption-on a {
-    /* background-color: red; */
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -1030,7 +1017,6 @@
     gap: 10px;
     text-decoration: none;
     padding: 15px 20px;
-    /*  */
     color: #14b8a6;
     border-bottom: 1px solid #14b8a6;
 }
@@ -1042,7 +1028,6 @@
 
 /* todo/ the items */
 .theitemsdiv {
-    /* background-color: aqua; */
     margin-top: 30px;
     width: 100%;
 }
@@ -1055,11 +1040,9 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    /* background-color: rgb(246, 251, 250); */
 }
 
 .the-blue-section {
-    /* background-color: aqua; */
     margin: 50px 0px;
     display: flex;
     flex-direction: column;
@@ -1071,13 +1054,11 @@
 
 /* todo/ first row */
 .thelongdiv-firstrow {
-    /* background-color: aqua; */
     background-color: rgb(32, 56, 86);
     border: rgb(59, 80, 107) 1px solid;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    
     align-content: center;
     padding: 20px;
     border-radius: 10px;
@@ -1091,7 +1072,6 @@
     gap: 20px;
     padding: 20px;
     width: 50%;
-    /* align-items: center; */
 }
 
 .longdiv-onediv1 h1 {
@@ -1166,17 +1146,14 @@
     flex-direction: column;
     gap: 10px;
     padding: 20px;
-    /* align-items: center; */
 }
 
 .border-link-sectionfrth {
-    /* background-color: blueviolet; */
     outline: 1px solid rgb(132, 142, 171);
     border-radius: 5px;
     padding: 4px 15px;
     display: flex;
     align-items: center;
-    /* color: rgb(80, 97, 123); */
     color: white;
 }
 
@@ -1189,7 +1166,6 @@
 }
 
 .border-link-sectionfrth a {
-    /* background-color: red; */
     padding: 10px;
     color: white;
     text-decoration: none;
@@ -1363,11 +1339,7 @@
 }
 
 .container-footer-one {
-    /* background-color: #00a18e; */
-    padding: 30px;
-    ;
-    /* width: 95%; */
-    /* background-color: brown; */
+    padding: 30px;    
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
@@ -1377,8 +1349,6 @@
     display: flex;
     flex-direction: column;
     width: 35%;
-    /* background-color: chartreuse; */
-    /* padding: 30px; */
 
 }
 
