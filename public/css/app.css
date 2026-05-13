@@ -693,6 +693,7 @@
     margin-left: 10px;
     font-size: 10px;
 }
+/* !this is a nother sectino */
 
 /* !this is a footer */
 
@@ -706,7 +707,12 @@
     /* background-color: blue; */
     width: 100%;
 }
-
+.h1{
+    background-color: brown;
+}
+.pp{
+    background-color: aqua;
+}
 .container-footer-one {
     width: 95%;
     /* background-color: brown; */
@@ -872,6 +878,8 @@
 .tit-down {
     margin: 10px 0px 20px;
 }
+/* !this is a section */
+
 
 /* !this is a bottom footer */
 .box-footer-bottom {
