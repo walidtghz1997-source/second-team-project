@@ -663,7 +663,7 @@
     border-radius: 10px;
 }
 
-.box-container-two-1-1-1 p {
+.box-container-two-1-1-1 p{
     width: fit-content;
     text-decoration: none;
     color: rgb(13, 148, 136);
@@ -675,7 +675,6 @@
     font-weight: 500;
     margin: 20px;
 }
-
 .box-container-two-1-1-1 p:hover {
     color: rgb(220, 237, 235);
     background-color: rgb(13, 148, 136);
@@ -693,7 +692,6 @@
     padding: 15px;
     width: 100%;
 }
-
 .box-container-two-1-1-2 h1 {
     font-family: "quicksand", sans-serif;
     font-size: xx-large;
@@ -742,25 +740,40 @@
     margin-right: 10px;
 }
 
-/* ?/ second part */
+/* todo/ second part */
 
-.box-container-two-2 {
+.secondsection-row { 
     display: flex;
     margin-top: 60px;
     justify-content: space-around;
     gap: 15px;
-    /* background-color: aqua; */
+
+}
+.secondsection-row:hover {
 }
 
-.box-of-images {
+.secondsection-onecard {
     border: 1px solid rgb(231, 232, 235);
     border-radius: 10px;
 
 }
+.secondsection-onecard:hover {
+    border: 1px solid rgb(9, 175, 161);
+    outline: 1px solid rgb(9, 175, 161);
+    box-shadow: 0px 0px 6px rgba(34, 41, 50, 0.164);
+    transition: 0.5s;
+    cursor: pointer;
+}
 
-.box-of-images- {
+.secondsection-imagediv {
     overflow: hidden;
     height: 210px;
+
+}
+
+.secondsection-imagediv img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .box-of-images-1 {
@@ -779,6 +792,12 @@
 .mar-10 {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: "quicksand",sans-serif;
+
+}
+.mar-10:hover {
+    color: rgb(9, 175, 161);
+    transition: 0.3s;
 }
 
 .pap {
@@ -791,13 +810,20 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    color: rgb(6, 73, 32);
+    color: rgb(9, 175, 161);
+
     display: flex;
 }
 
 .p-i:hover {
+    border-radius: 10px;
+    padding:10px ;
+    background-color: #00a18e;
+    color: white;
+    text-shadow: #59f5e3 0px 0px 6px;
     cursor: pointer;
-    color: orange;
+    color: ;
+    transition: 0.3s;;
 }
 
 .fafo {
@@ -1102,7 +1128,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-
+    
     align-content: center;
     padding: 20px;
     border-radius: 10px;
