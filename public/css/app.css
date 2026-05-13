@@ -760,8 +760,8 @@
 .secondsection-onecard:hover {
     border: 1px solid rgb(9, 175, 161);
     outline: 1px solid rgb(9, 175, 161);
-    box-shadow: 0px 0px 6px rgba(34, 41, 50, 0.164);
-    transition: 0.5s;
+    box-shadow: 0px 0px 4px rgba(22, 28, 35, 0.49);
+    transition: 0.3s;
     cursor: pointer;
 }
 
@@ -780,8 +780,6 @@
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-
-
 }
 
 .box-of-images-para {
@@ -806,7 +804,8 @@
 }
 
 .p-i {
-    margin-top: 10px;
+    margin: 10px 20px 10px 5px;
+    padding: 10px ;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -817,12 +816,11 @@
 
 .p-i:hover {
     border-radius: 10px;
-    padding:10px ;
+    
     background-color: #00a18e;
     color: white;
     text-shadow: #59f5e3 0px 0px 6px;
     cursor: pointer;
-    color: ;
     transition: 0.3s;;
 }
 
